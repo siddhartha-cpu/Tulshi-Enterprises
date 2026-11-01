@@ -1,5 +1,9 @@
 # M/S. Tulshi Enterprises — website
 
+**Live site (temporary address):** https://tulshienterprises.netlify.app
+
+Hosted on Netlify. With the Netlify site linked to this repository, every change pushed to `main` goes live automatically.
+
 Static one-page site with no build step. The host must see `index.html` at the **top level**, so
 always upload the **contents of `frontend/`**, never this outer folder:
 
@@ -14,11 +18,11 @@ Security headers and redirects are set for each host: `_headers` + `_redirects` 
 `vercel.json` (Vercel) and `.htaccess` (Apache / cPanel).
 You can also open `frontend/index.html` directly in a browser to check it.
 
-## Before going live (one find-and-replace)
+## When the permanent domain is ready (one find-and-replace)
 
-The site's address isn't known yet, so every place that needs the full web address uses the
-placeholder **`https://tulshienterprises.example`** (a reserved name that can never point to anyone
-else's site). Replace it with the real address, e.g. `https://www.yourdomain.in`, in these files:
+The site currently uses its temporary address **`https://tulshienterprises.netlify.app`** wherever a full
+web address is needed. When the client's own domain is connected in Netlify, replace that address with the
+new one, e.g. `https://www.yourdomain.in`, in these files:
 
 `frontend/index.html`, `frontend/robots.txt`, `frontend/sitemap.xml`, `frontend/llms.txt`, `frontend/.well-known/security.txt`
 
