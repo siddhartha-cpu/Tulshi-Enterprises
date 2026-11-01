@@ -13,7 +13,7 @@
 
 ## How to request a quotation
 
-Use the quotation form at https://tulshienterprises.example/#contact (name, phone, optional email and organisation, one or more project categories, site location and scope of work), or call / WhatsApp the numbers above. Requests from the form are emailed to the office.
+Use the quotation form at https://tulshienterprises.netlify.app/#contact (name, phone, optional email and organisation, one or more project categories, site location and scope of work), or call / WhatsApp the numbers above. Requests from the form are emailed to the office.
 
 ## Services
 
@@ -29,15 +29,15 @@ Use the quotation form at https://tulshienterprises.example/#contact (name, phon
 
 ## Completed projects
 
-- **16 m flag mast & 5 m octagonal poles**: 16.0 Mtr Flag Mast & 5.0 Mtr Octagonal Pole Civil Foundation & Installation Work At Bachhara Park, Jatani, Khordha, Odisha, 752050, Bachhara Park, Jatani, Khordha, Odisha 752050 (client: Forest Department). Civil foundation and installation work at Bachhara Park: delivery of the mast and duct material, foundation blocks with anchor bolts, cabling, erection of the 16.0 mtr flag mast with its winch, the 5.0 mtr octagonal floodlight poles and the feeder pillar. Photos: https://tulshienterprises.example/#project-bachhara
-- **12.5 m high mast erection**: World Green Energy Pvt. Ltd: 12.5 Mtr High Mast Work, Uppalaputi, Odisha (client: World Green Energy Pvt. Ltd). Erection of the 12.5 mtr high mast by mobile crane on its prepared foundation, followed by lantern carriage and LED floodlight fitting and commissioning with all floodlights switched on. Photos: https://tulshienterprises.example/#project-wge-hm
-- **Octagonal & decorative street poles**: World Green Energy Pvt. Ltd: 7.0 Mtr Octagonal Pole & 3.0 Mtr Decorative Pole Work, Uppalaputi, Odisha (client: World Green Energy Pvt. Ltd). Pre-erection wiring of galvanised poles, aligning and fixing on the base plates, luminaire fitting, underground cable trenching and laying along the boundary wall, and final energising of the street lights. Photos: https://tulshienterprises.example/#project-wge-oct
-- **20 m high mast foundation**: Daspala Rly Station, Nayagarh, Odisha: 20.0 Mtr High Mast Foundation Work, Daspala Rly Station, Nayagarh, Odisha. Civil foundation work for the 20.0 mtr high mast: setting out and machine excavation of the pit, rebar mat and cage fabrication, anchor bolt template fixing, shuttering, ready-mix concreting and finished anchor bolt pedestals ready for pole erection. Photos: https://tulshienterprises.example/#project-daspala
-- **Street light, cable & junction box change**: Naraj Barrage & Dam Street Light, Cable & Junction Box Change Work, Naraj Barrage, Narajmarthapur, Odisha 754006. Street light maintenance at Naraj Barrage: lamp-head fitting at height, replacement of pole-mounted control boxes with armoured cable glands, earthing and core termination (01/08/2026). Photos: https://tulshienterprises.example/#project-naraj
-- **Street lighting for Colourtune Garment**: Colourtune Garment Street Light Project, Nakhara, Odisha, Nakhara, Odisha (client: Colourtune Garment). Street light work at the Colourtune Garment premises, Nakhara, including the outdoor feeder pillar on its masonry plinth with incoming cable entry. Photos: https://tulshienterprises.example/#project-colourtune
+- **16 m flag mast & 5 m octagonal poles**: 16.0 Mtr Flag Mast & 5.0 Mtr Octagonal Pole Civil Foundation & Installation Work At Bachhara Park, Jatani, Khordha, Odisha, 752050, Bachhara Park, Jatani, Khordha, Odisha 752050 (client: Forest Department). Civil foundation and installation work at Bachhara Park: delivery of the mast and duct material, foundation blocks with anchor bolts, cabling, erection of the 16.0 mtr flag mast with its winch, the 5.0 mtr octagonal floodlight poles and the feeder pillar. Photos: https://tulshienterprises.netlify.app/#project-bachhara
+- **12.5 m high mast erection**: World Green Energy Pvt. Ltd: 12.5 Mtr High Mast Work, Uppalaputi, Odisha (client: World Green Energy Pvt. Ltd). Erection of the 12.5 mtr high mast by mobile crane on its prepared foundation, followed by lantern carriage and LED floodlight fitting and commissioning with all floodlights switched on. Photos: https://tulshienterprises.netlify.app/#project-wge-hm
+- **Octagonal & decorative street poles**: World Green Energy Pvt. Ltd: 7.0 Mtr Octagonal Pole & 3.0 Mtr Decorative Pole Work, Uppalaputi, Odisha (client: World Green Energy Pvt. Ltd). Pre-erection wiring of galvanised poles, aligning and fixing on the base plates, luminaire fitting, underground cable trenching and laying along the boundary wall, and final energising of the street lights. Photos: https://tulshienterprises.netlify.app/#project-wge-oct
+- **20 m high mast foundation**: Daspala Rly Station, Nayagarh, Odisha: 20.0 Mtr High Mast Foundation Work, Daspala Rly Station, Nayagarh, Odisha. Civil foundation work for the 20.0 mtr high mast: setting out and machine excavation of the pit, rebar mat and cage fabrication, anchor bolt template fixing, shuttering, ready-mix concreting and finished anchor bolt pedestals ready for pole erection. Photos: https://tulshienterprises.netlify.app/#project-daspala
+- **Street light, cable & junction box change**: Naraj Barrage & Dam Street Light, Cable & Junction Box Change Work, Naraj Barrage, Narajmarthapur, Odisha 754006. Street light maintenance at Naraj Barrage: lamp-head fitting at height, replacement of pole-mounted control boxes with armoured cable glands, earthing and core termination (01/08/2026). Photos: https://tulshienterprises.netlify.app/#project-naraj
+- **Street lighting for Colourtune Garment**: Colourtune Garment Street Light Project, Nakhara, Odisha, Nakhara, Odisha (client: Colourtune Garment). Street light work at the Colourtune Garment premises, Nakhara, including the outdoor feeder pillar on its masonry plinth with incoming cable entry. Photos: https://tulshienterprises.netlify.app/#project-colourtune
 
 ## Pages
 
-- [Home](https://tulshienterprises.example/): overview, services, projects, gallery and quotation form
-- [Project photos](https://tulshienterprises.example/#gallery): every site photo, filterable by project
-- [Get a quote](https://tulshienterprises.example/#contact)
+- [Home](https://tulshienterprises.netlify.app/): overview, services, projects, gallery and quotation form
+- [Project photos](https://tulshienterprises.netlify.app/#gallery): every site photo, filterable by project
+- [Get a quote](https://tulshienterprises.netlify.app/#contact)
