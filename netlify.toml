@@ -1,0 +1,4 @@
+# Used only when the whole project is connected to Netlify from GitHub.
+# No build step: Netlify publishes the ready-made site in the frontend folder.
+[build]
+  publish = "frontend"
