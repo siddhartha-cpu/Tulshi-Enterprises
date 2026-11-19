@@ -1,0 +1,14 @@
+# Pretty URLs for the old one-page links
+/business-enquiry  /business_enquiry.html  301
+
+# Project files that are not part of the website (only matters if the site is uploaded without a build)
+/netlify/*           /404.html  404!
+/node_modules/*      /404.html  404!
+/package.json        /404.html  404!
+/package-lock.json   /404.html  404!
+/netlify.toml        /404.html  404!
+/build.mjs           /404.html  404!
+/README.md           /404.html  404!
+/vercel.json         /404.html  404!
+/.htaccess           /404.html  404!
+/.gitignore          /404.html  404!

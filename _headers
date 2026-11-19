@@ -1,0 +1,32 @@
+# Security and caching headers (Netlify / Cloudflare Pages read this file automatically).
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; form-action 'self'; manifest-src 'self'; frame-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()
+  Cross-Origin-Opener-Policy: same-origin
+
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-cache
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+/gallery/*
+  Cache-Control: public, max-age=2592000
+/assets/css/*
+  Cache-Control: public, max-age=3600
+/assets/js/*
+  Cache-Control: public, max-age=3600
+/css/*
+  Cache-Control: public, max-age=3600
+/js/*
+  Cache-Control: public, max-age=3600
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/images/*
+  Cache-Control: public, max-age=2592000

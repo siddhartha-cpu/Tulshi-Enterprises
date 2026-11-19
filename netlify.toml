@@ -1,0 +1,15 @@
+# Netlify settings for the whole project (Netlify Drop while signed in, or GitHub).
+# Netlify installs the two small packages in package.json, runs build.mjs (copies the
+# website into "dist") and packages the admin server in netlify/functions.
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[dev]
+  framework = "#static"
+  publish = "."
+  port = 8888

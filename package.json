@@ -1,0 +1,17 @@
+{
+  "name": "tulshi-enterprises-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for M/S. Tulshi Enterprises with an admin portal (Netlify Functions + Netlify Blobs).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "@netlify/cache": "^4.2.1"
+  }
+}
