@@ -19,14 +19,18 @@
 /gallery/*
   Cache-Control: public, max-age=2592000
 /assets/css/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
 /assets/js/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
 /css/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
 /js/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 /images/*
   Cache-Control: public, max-age=2592000
+/images/opt/*
+  Cache-Control: public, max-age=31536000
+/sitemap.xml
+  Cache-Control: public, max-age=3600

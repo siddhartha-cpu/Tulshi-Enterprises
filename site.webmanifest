@@ -1,12 +1,12 @@
 {
   "name": "M/S. Tulshi Enterprises",
   "short_name": "Tulshi",
-  "description": "Electrical and civil contractor in Cuttack, Odisha.",
+  "description": "Civil and MV electrical contractor and general order supplier in Cuttack, Odisha: street lighting, high masts, MV & LT lines, cabling and RCC foundations.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#05070C",
-  "theme_color": "#05070C",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B1552",
   "lang": "en-IN",
   "icons": [
     {
