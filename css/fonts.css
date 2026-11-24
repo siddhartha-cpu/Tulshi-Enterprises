@@ -1,0 +1,14 @@
+/* Self-hosted fonts (SIL Open Font License) */
+@font-face { font-family: "Roboto"; font-weight: 300; font-style: normal; font-display: swap; src: url(../fonts/roboto-latin-300-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 400; font-style: normal; font-display: swap; src: url(../fonts/roboto-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 500; font-style: normal; font-display: swap; src: url(../fonts/roboto-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto"; font-weight: 700; font-style: normal; font-display: swap; src: url(../fonts/roboto-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto Condensed"; font-weight: 300; font-style: normal; font-display: swap; src: url(../fonts/roboto-condensed-latin-300-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto Condensed"; font-weight: 400; font-style: normal; font-display: swap; src: url(../fonts/roboto-condensed-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto Condensed"; font-weight: 500; font-style: normal; font-display: swap; src: url(../fonts/roboto-condensed-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto Condensed"; font-weight: 600; font-style: normal; font-display: swap; src: url(../fonts/roboto-condensed-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "Roboto Condensed"; font-weight: 700; font-style: normal; font-display: swap; src: url(../fonts/roboto-condensed-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kanit"; font-weight: 300; font-style: normal; font-display: swap; src: url(../fonts/kanit-latin-300-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kanit"; font-weight: 400; font-style: normal; font-display: swap; src: url(../fonts/kanit-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kanit"; font-weight: 500; font-style: normal; font-display: swap; src: url(../fonts/kanit-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "Kanit"; font-weight: 600; font-style: normal; font-display: swap; src: url(../fonts/kanit-latin-600-normal.woff2) format("woff2"); }

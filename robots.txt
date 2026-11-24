@@ -24,4 +24,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://tulshienterprises.example/sitemap.xml
+Sitemap: https://tulshienterprises.netlify.app/sitemap.xml

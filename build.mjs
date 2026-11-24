@@ -28,7 +28,7 @@ console.log('Original projects for the admin portal: ' + list.length + ' (' + li
 
 /* ---------- 2. the website ---------- */
 const PRIVATE = new Set(['dist', 'netlify', 'node_modules', '.netlify', '.git', 'build.mjs', 'netlify.toml',
-  'package.json', 'package-lock.json', 'README.md', '.gitignore', 'vercel.json', '.htaccess', '.DS_Store']);
+  'package.json', 'package-lock.json', 'README.md', '.gitignore', 'vercel.json', '.htaccess', '.DS_Store', 'dev-tools']);
 
 rmSync('dist', { recursive: true, force: true });
 let copied = 0;
