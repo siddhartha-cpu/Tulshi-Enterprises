@@ -73,7 +73,7 @@ dev-tools/             maintenance tools, not published with the site
 
 The site is hosted on Netlify. `netlify.toml` runs `node build.mjs`, publishes `dist/` and packages the admin server from `netlify/functions`.
 
-Set these environment variables in Netlify (Project configuration → Environment variables) before relying on the admin portal:
+The admin portal signs in with these Netlify environment variables (Project configuration → Environment variables). They are set on the live site; their values are never stored in this repository, and there is no built-in default password: without `ADMIN_PASSWORD` nobody can sign in. Redeploy after changing them.
 
 | Variable | Purpose |
 |---|---|
