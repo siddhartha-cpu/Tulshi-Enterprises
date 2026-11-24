@@ -24,9 +24,9 @@
      PATCH  /api/admin/gallery/<id>    edit a caption
      DELETE /api/admin/gallery/<id>
 
-   Sign-in: username "admin", password "admin123".
-   To change them, add ADMIN_USERNAME / ADMIN_PASSWORD under
-   Netlify > Project configuration > Environment variables, then redeploy.
+   Sign-in uses ADMIN_USERNAME / ADMIN_PASSWORD from
+   Netlify > Project configuration > Environment variables (redeploy after changing them).
+   There is no built-in password: without ADMIN_PASSWORD nobody can sign in.
    ========================================================= */
 import { getStore } from '@netlify/blobs';
 import { purgeCache } from '@netlify/cache';
@@ -40,7 +40,7 @@ const env = (k) => {
   return process.env[k] || '';
 };
 const adminUser = () => (env('ADMIN_USERNAME') || 'admin').trim().toLowerCase();
-const adminPass = () => env('ADMIN_PASSWORD') || 'admin123';
+const adminPass = () => env('ADMIN_PASSWORD');
 
 const SESSION_SECONDS = 12 * 60 * 60;   // stay signed in for 12 hours
 const MAX_TRIES = 5;                     // wrong passwords before a pause
@@ -157,6 +157,7 @@ async function login(req, context) {
   const now = Date.now();
   let rec = (await s.get(key, { type: 'json' })) || { n: 0, until: 0, first: now };
   if (rec.until > now) return fail(429, 'Too many wrong tries. Please wait ' + Math.ceil((rec.until - now) / 60000) + ' minutes and try again.');
+  if (!adminPass()) return fail(503, 'The admin password has not been set up yet. Add ADMIN_PASSWORD in Netlify and redeploy.');
 
   const okUser = sameText(line(body.username, 100).toLowerCase(), adminUser());
   const okPass = sameText(String(body.password == null ? '' : body.password).slice(0, 200), adminPass());

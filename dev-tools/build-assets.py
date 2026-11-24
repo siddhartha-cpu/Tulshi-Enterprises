@@ -38,8 +38,10 @@ subprocess.run([TOOLS + 'purgecss', '--css', P('css/theme.css'), '--content'] + 
 FALLBACK_FACES = (
     '@font-face{font-family:"RC Fallback";src:local("Arial"),local("ArialMT"),local("Liberation Sans"),local("Helvetica"),local("Roboto");'
     'size-adjust:89.4%;ascent-override:104%;descent-override:26.8%;line-gap-override:0%}\n'
-    '@font-face{font-family:"Kanit Fallback";font-weight:100 550;src:local("Arial"),local("ArialMT"),local("Liberation Sans"),local("Helvetica"),local("Roboto");'
-    'size-adjust:102.6%;ascent-override:107.2%;descent-override:39%;line-gap-override:0%}\n'
+    '@font-face{font-family:"Kanit Fallback";font-weight:100 450;src:local("Arial"),local("ArialMT"),local("Liberation Sans"),local("Helvetica"),local("Roboto");'
+    'size-adjust:98.9%;ascent-override:111.2%;descent-override:40.4%;line-gap-override:0%}\n'
+    '@font-face{font-family:"Kanit Fallback";font-weight:451 550;src:local("Arial"),local("ArialMT"),local("Liberation Sans"),local("Helvetica"),local("Roboto");'
+    'size-adjust:100.1%;ascent-override:109.9%;descent-override:40%;line-gap-override:0%}\n'
     '@font-face{font-family:"Kanit Fallback";font-weight:551 900;src:local("Arial Bold"),local("Arial-BoldMT"),local("Liberation Sans Bold"),local("Helvetica Bold"),local("Roboto Bold");'
     'size-adjust:95.7%;ascent-override:115%;descent-override:41.8%;line-gap-override:0%}\n')
 css = FALLBACK_FACES + rd('css/fonts.css') + '\n' + open(PURGED + '/theme.css', encoding='utf-8').read() + '\n' + rd('css/tulshi.css')
